@@ -1,16 +1,12 @@
-import styles from "./Home.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>Timbuktu</h1>
+      <section className="w-screen h-screen flex flex-1 justify-center align-middle flex-col text-center">
+        <h1 className="text-5xl font-bold font-sans mb-2">Timbuktu</h1>
 
-        <q className={styles.description}>
+        <q className="font-serif">
           O sal vem do norte, o ouro vem do sul, mas as palavras de Deus e os
           tesouros da sabedoria vêm de Timbuktu
         </q>
-      </main>
-    </div>
+      </section>
   );
 }
