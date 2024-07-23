@@ -3,7 +3,7 @@ import Link from "next/link";
 const quotes = [
   {
     id: "1",
-    text: "Nunca se esquecem as lições aprendidas na dor.",
+    text: "O sal vem do norte, o ouro vem do sul, mas as palavras de Deus e os tesouros da sabedoria vêm de Timbuktu",
   },
   {
     id: "2",
@@ -19,15 +19,15 @@ const quotes = [
   },
   {
     id: "5",
-    text: "O rastafari é um revolucionário. Não se intimida, não aceita ser comprado.",
+    text: "Quem faz perguntas, não pode evitar as respostas.",
   },
   {
     id: "6",
-    text: "Difícil não é lutar por aquilo que se quer, e sim desistir daquilo que se mais ama. Eu desisti. Mas não pense que foi por não ter coragem de lutar, e sim por não ter mais condições de sofrer.",
+    text: "Uma mentira estraga mil verdades.",
   },
   {
     id: "7",
-    text: "Não viva para que a sua presença seja notada, mas para que a sua falta seja sentida.",
+    text: "Não esqueça o que é ser um marinheiro apenas porque é um capitão.",
   },
   {
     id: "8",
@@ -39,7 +39,7 @@ const quotes = [
   },
   {
     id: "10",
-    text: "De grão em grão, a galinha enche o papo",
+    text: "Você aprende a cortar árvores cortando-as.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function Home() {
       <main className="container mx-auto flex flex-1">
         <section className="mb-6 mt-6 space-y-6 mx-6">
           <header className="my-4">
-            <h2 className="text-2xl">Populares</h2>
+            <h2 className="text-2xl">Provérbios Populares</h2>
           </header>
 
           <div className="flex flex-col space-y-6">
