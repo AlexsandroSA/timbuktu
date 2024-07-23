@@ -60,8 +60,8 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="container mx-auto flex flex-1 columns-2">
-        <section className="mb-6 mt-6 space-y-6">
+      <main className="container mx-auto flex flex-1">
+        <section className="mb-6 mt-6 space-y-6 mx-6">
           <header className="my-4">
             <h2 className="text-2xl">Populares</h2>
           </header>
