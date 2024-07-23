@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Timbuktu - Sabedoria Ancestral",
-  description: "",
+  description: "Provérbios, pensamentos, ditados, textos e muita sabedoria ancestral",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
+      <body className={`h-screen flex flex-1 flex-col justify-stretch bg-stone-50 ${inter.className}`}>
         {children}
         <Analytics />
         <SpeedInsights />
