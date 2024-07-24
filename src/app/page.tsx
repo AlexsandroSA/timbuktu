@@ -49,21 +49,17 @@ export default function Home() {
       <header className="border-b bg-stone-900 p-6 text-white">
         <nav className="container mx-auto flex justify-between align-middle">
           <h1>
-            <Link href="/">Timbuktu</Link>
+            <Link href="/" className="font-sans text-3xl font-bold">
+              Timbuktu
+            </Link>
           </h1>
-
-          <ul className="flex justify-center space-x-6 align-middle">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-          </ul>
         </nav>
       </header>
 
       <main className="container mx-auto flex flex-1">
-        <section className="mb-6 mt-6 space-y-6 mx-6">
-          <header className="my-4">
-            <h2 className="text-2xl">Provérbios Populares</h2>
+        <section className="m-6 w-full space-y-6 text-slate-900">
+          <header className="my-2">
+            <h2 className="text-2xl">Populares</h2>
           </header>
 
           <div className="flex flex-col space-y-6">
@@ -81,7 +77,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t-2 border-solid border-neutral-100 p-6 align-bottom">
+      <footer className="border-t-2 border-solid border-neutral-100 p-6 align-bottom text-slate-900">
         <div className="container mx-auto">
           <p>© 2024 Timbuktu</p>
         </div>
