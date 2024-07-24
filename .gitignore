@@ -13,8 +13,11 @@
 /.next/
 /out/
 
-# production
-/build
+# build Outputs
+.next/
+out/
+build
+dist
 
 # misc
 .DS_Store
@@ -26,7 +29,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
@@ -34,3 +41,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# turborepo
+.turbo
